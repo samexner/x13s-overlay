@@ -107,7 +107,7 @@ src_prepare() {
 			break
 		fi
 	done
-	eapply "${WORKDIR}/steev-6.16.7.patch
+	eapply "${WORKDIR}/steev-6.16.6.patch
 
 	default
 
