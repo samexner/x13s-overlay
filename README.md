@@ -1,2 +1,2 @@
 # x13s-overlay
-Gentoo overlay for Thinkpad x13s
+Gentoo overlay for Thinkpad x13s (WIP)
