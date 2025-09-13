@@ -96,6 +96,7 @@ src_unpack() {
 
 src_prepare() {
 	local patch
+	eapply "${WORKDIR}/steev-6.16.6.patch
 	eapply "${WORKDIR}/patch-${PATCH_PV}"
 	for patch in "${WORKDIR}/${PATCHSET}"/*.patch; do
 		eapply "${patch}"
@@ -107,7 +108,6 @@ src_prepare() {
 			break
 		fi
 	done
-	eapply "${WORKDIR}/steev-6.16.6.patch
 
 	default
 
